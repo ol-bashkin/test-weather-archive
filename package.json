@@ -1,0 +1,19 @@
+{
+  "name": "test-weather-archive",
+  "version": "1.0.0",
+  "description": "Клиент для визуализации данных веб-сервиса, который хранит архив изменений температуры и уровня осадков за последние 120 лет в одном из городов России.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ol-bashkin/test-weather-archive.git"
+  },
+  "author": "Oleg Bashkin",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ol-bashkin/test-weather-archive/issues"
+  },
+  "homepage": "https://github.com/ol-bashkin/test-weather-archive#readme"
+}
