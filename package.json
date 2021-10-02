@@ -2,9 +2,11 @@
   "name": "test-weather-archive",
   "version": "1.0.0",
   "description": "Клиент для визуализации данных веб-сервиса, который хранит архив изменений температуры и уровня осадков за последние 120 лет в одном из городов России.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ol-bashkin/test-weather-archive/issues"
   },
-  "homepage": "https://github.com/ol-bashkin/test-weather-archive#readme"
+  "homepage": "https://github.com/ol-bashkin/test-weather-archive#readme",
+  "devDependencies": {
+    "vite": "^2.6.0"
+  }
 }
