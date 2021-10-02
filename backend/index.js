@@ -11,6 +11,11 @@ const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
 
+server.use((_, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  next();
+});
+
 server.use(
   jsonServer.rewriter({
     "/api/v1/*": "/$1",
@@ -18,6 +23,6 @@ server.use(
 );
 
 server.use(router);
-server.listen(3000, () => {
+server.listen(3004, () => {
   console.log("JSON Server is running");
 });
